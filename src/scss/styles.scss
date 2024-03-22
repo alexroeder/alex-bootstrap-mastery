@@ -24,3 +24,27 @@
 
 // Custom styles:
 
+.jumbotron {
+  background: #ffffff url("../img/pirate-ship.jpg") no-repeat center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+
+  .display-4 {
+    font-family: "My Soul", cursive;
+  }
+}
+
+footer {
+  text-align: center;
+  background: teal;
+}
+
+byline {
+  font-weight: bold;
+}
+
+figcaption {
+  font-style: italic;
+}
+

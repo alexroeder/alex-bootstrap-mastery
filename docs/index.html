@@ -5,12 +5,75 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=My+Soul&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <!-- Content starts here -->
-  <p>Testing: 1, 2, 3, 4</p>
-
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Pirate Cove</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-lwabel="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          <a class="nav-link" href="article.html">Article</a>
+          <a class="nav-link" href="photos.html">Photos</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="jumbotron">
+    <header class="mb-3 p-5">
+      <h1 class="display-4">Ship's Log</h1>
+      <p class="lead">A diary by Capt. Crit 'Red Beard' McGillicutty</p>
+    </header>
+  </div>
+  <section class="container">
+    <div class="row">
+      <div class="col-md-9">
+        <h1>Thar be monsters in the sea</h1>
+      </div>
+    </div>
+  </section>
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card text-bg-light mb-3">
+          <img src="img/kraken01.jpg" class="card-img-top" alt="kraken01">
+          <div class="card-body">
+          <h5 class="card-title">Name This Kraken!</h5>
+          <p class="card-text">Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+        <div class="card text-bg-light mb-3">
+          <img src="img/kraken02.jpg" class="card-img-top" alt="kraken01">
+          <div class="card-body">
+          <h5 class="card-title">Name This Kraken!</h5>
+          <p class="card-text">Headlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+        <div class="card text-bg-light mb-3">
+          <img src="img/kraken03.jpg" class="card-img-top" alt="kraken01">
+          <div class="card-body">
+          <h5 class="card-title">Name This Kraken!</h5>
+          <p class="card-text">Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest rutters.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="my-4 p-2">
+      <p>Site by Kraken Industries</p>
+    </div>
+  </footer>
   <!-- Closing scripts here -->
   <script src="js/bootstrap.bundle.min.js"></script>
 </body>
